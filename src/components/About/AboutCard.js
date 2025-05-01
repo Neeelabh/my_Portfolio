@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Anish Chandra </span>
+            Hi Everyone, I am <span className="purple">Neelabh Deshbhratar </span>
             from <span className="purple"> Mumbai, India.</span>
             <br />
-            I am currently learning new skills.
+            I am currently learning Agentic AI. 
             <br />
-            I have completed BCom in Business Management at R.A. Podar College of Commerce
-            Economics.
+            I have completed BTech in Information Technology from Savitribai Phule Pune University.
+            
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +24,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Blogs
+              <ImPointRight /> Reading Books
             </li>
             <li className="about-activity">
               <ImPointRight /> Researching
@@ -32,10 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Persistence is Key! BABY
-            "{" "}
+            "Persistence is Key!"{" "}
           </p>
-          <footer className="blockquote-footer">Anish</footer>
+          <footer className="blockquote-footer">Neelabh</footer>
         </blockquote>
       </Card.Body>
     </Card>

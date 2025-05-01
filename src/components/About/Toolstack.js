@@ -2,25 +2,25 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiNetlify,
-  SiWindows,
+  SiAWS,
+  SiMySQLWorkbench,
+  SiJupyterNotebook,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
+        <SiJupyterNotebook />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiAWS />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <SiMySQLWorkbench />
       </Col>
     </Row>
   );

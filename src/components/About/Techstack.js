@@ -1,20 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
+  DiPython,
+  DiCpp,
+  DiSQL,
   DiMongodb,
-  DiGit,
-  DiHtml5,
-  DiCss3,
-  DiJsBadge,
+  DiGitGithub,
+  DiArtificialIntelligence,
+  DiDataScience,
+  DiDataAnalytics,
 
 } from "react-icons/di";
 import {
-  SiSolidity,
-  SiMicrosoftexcel,
-  SiMicrosoftpowerpoint,
+  SiMachineLearning,
+  SiMicrosoftExcel,
 
 } from "react-icons/si";
 import { 
@@ -27,37 +26,35 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiCpp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiSQL />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiMachineLearning />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGitGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <DiDataScience/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <DiDataAnalytics />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJsBadge />
+        <DiArtificialIntelligence />
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftpowerpoint />
+        <SiMicrosoftExcel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <PiFileSql />
