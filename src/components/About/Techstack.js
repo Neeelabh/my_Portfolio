@@ -9,7 +9,7 @@ import {
 
 } from "react-icons/di";
 import {
-  SiMachineLearning,
+  SiTensorflow,
   SiMicrosoftExcel,
   SiCplusplus,
   SiTableau,
@@ -36,7 +36,7 @@ function Techstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMachineLearning />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
