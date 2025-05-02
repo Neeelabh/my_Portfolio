@@ -2,18 +2,19 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiPython,
-  DiCpp,
   DiSQL,
   DiMongodb,
   DiGitGithub,
   DiArtificialIntelligence,
-  DiDataScience,
-  DiDataAnalytics,
+  
 
 } from "react-icons/di";
 import {
   SiMachineLearning,
   SiMicrosoftExcel,
+  SiCplusplus,
+  SiTableau,
+  SiPowerbi,
 
 } from "react-icons/si";
 import { 
@@ -29,7 +30,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCpp />
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiSQL />
@@ -44,10 +45,10 @@ function Techstack() {
         <DiGitGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDataScience/>
+        <SiTableau/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDataAnalytics />
+        <SiPowerbi/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiArtificialIntelligence />
