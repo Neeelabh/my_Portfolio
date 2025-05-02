@@ -1,30 +1,20 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-
-// Devicons (DI)
 import {
   DiPython,
   DiMongodb,
-  DiArtificialIntelligence,
-  DiGit
+  DiGit,
 } from "react-icons/di";
-
-// Simple Icons (SI)
 import {
   SiCplusplus,
-  SiMicrosoftExcel,
-  SiPowerbi,
-  SiTableau
+  SiMicrosoftsqlserver,
+  SiMicrosoftexcel,
+  SiTableau,
 } from "react-icons/si";
-
-// Font Awesome (FA)
-import { FaGithub } from "react-icons/fa";
-
-// Phosphor Icons (PI)
 import {
   PiMicrosoftWordLogoBold,
   PiFileSql,
-  PiTrademarkRegisteredBold
+  PiTrademarkRegisteredBold,
 } from "react-icons/pi";
 
 function Techstack() {
@@ -37,25 +27,19 @@ function Techstack() {
         <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsqlserver />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiTableau />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiArtificialIntelligence />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftExcel />
+        <SiMicrosoftexcel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <PiFileSql />
