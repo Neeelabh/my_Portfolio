@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiPython,
-  DiSQL,
   DiMongodb,
   DiGitGithub,
   DiArtificialIntelligence,
@@ -15,6 +14,7 @@ import {
   SiCplusplus,
   SiTableau,
   SiPowerbi,
+  SiMySQL,
 
 } from "react-icons/si";
 import { 
@@ -33,7 +33,7 @@ function Techstack() {
         <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiSQL />
+        <SiMySQL />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMachineLearning />
