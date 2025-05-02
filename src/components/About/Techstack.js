@@ -14,7 +14,7 @@ import {
   SiCplusplus,
   SiTableau,
   SiPowerbi,
-  SiMySQL,
+  SiMySQLWorkbench,
 
 } from "react-icons/si";
 import { 
@@ -33,7 +33,7 @@ function Techstack() {
         <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMySQL />
+        <SiMySQLWorkbench />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMachineLearning />
